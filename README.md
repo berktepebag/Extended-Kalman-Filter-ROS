@@ -4,13 +4,14 @@
 
 ## How to use:
 1. Clone the project
-2. Modify demo.cpp with your needs. 
+2. Modify demo.cpp. 
+3. This package depends on Eigen library. Follow the instructions on the <a href="http://eigen.tuxfamily.org/index.php?title=Main_Page" target="_blank">official website</a>. Easiest way to setup is, extracting and copying the files to "usr/include/" folder. 
 
-**Note:** Demo will not work unless you clone the main self-driving-car-ROS project. 
+**Note:** Demo.cpp will not work unless you clone the main self-driving-car-ROS project or change the message types. 
 
 ## Parameters
 
-Modify the parameters as you need: (They can also be found under tracking.cpp)
+Modify the parameters as you need: (Parameters can be found under tracking.cpp if modifying is necessary.)
 
 #### Process Covariance Matrix
 1. ekf/Qv_ax 
